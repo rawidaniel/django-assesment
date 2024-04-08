@@ -25,4 +25,4 @@ Create a Django API with django rest framework
 - create an app at "<https://developers.facebook.com>" to get App ID and secrete
 
 - run the server using "`python manage.py runserver`"
-- You can get all endpoints to test from this postman collection "`https://drive.google.com/file/d/1j8KPDhhtEsVbAtoF9XkagQf2zTBHdW2r/view?usp=sharing`"
+- You can get all endpoints to test from this postman collection "<https://drive.google.com/file/d/1j8KPDhhtEsVbAtoF9XkagQf2zTBHdW2r/view?usp=sharing>"
