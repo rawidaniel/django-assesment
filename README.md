@@ -18,6 +18,8 @@ Create a Django API with django rest framework
 - create the docker container using "`docker compose up --build`" command
 - access the postgres container using "`docker exec -it django-assesement-postgres psql -U postgres`" command
 - create the databse using "`CREATE DATABASE djangoassessment;`" command
+
+- Run "`python manage.py migrate`" command to create database tables
 - create mailtrap account to receive email messages at "<https://mailtrap.io/home>"
 - create an api app for google at "<https://console.cloud.google.com/welcome?project=lightning-menu>" to get Client_Secret and Client_Id.
 - create an app at "<https://developers.facebook.com>" to get App ID and secrete
