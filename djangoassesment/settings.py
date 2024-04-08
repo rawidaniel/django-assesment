@@ -99,7 +99,7 @@ DATABASES = {
        'USER': config("DB_USER"),
        'PASSWORD':config("DB_PASSWORD"),
        'HOST': 'localhost',
-       'PORT': '5432',
+       'PORT': '5433',
        
    }
 }
@@ -167,6 +167,7 @@ DJOSER = {
     'SERIALIZERS': {
         'user_create': 'authentication.serializers.UserCreateSerializer',
     },
+
     "PASSWORD_CHANGED_EMAIL_CONFIRMATION": True,
     "SEND_CONFIRMATION_EMAIL": True,
     "SET_PASSWORD_RETYPE": True,
