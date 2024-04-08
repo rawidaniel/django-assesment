@@ -17,7 +17,7 @@ Create a Django API with django rest framework
 - install dependencies using "`pipenv install`" command
 - create the docker container using "`docker compose up --build`" command
 - access the postgres container using "`docker exec -it django-assesement-postgres psql -U postgres`" command
-- create the databse using "`CREATE DATABASE djangoassessment;`" command
+- create the databse using "`CREATE DATABASE djangoassesment;`" command
 
 - Run "`python manage.py migrate`" command to create database tables
 - create mailtrap account to receive email messages at "<https://mailtrap.io/home>"
